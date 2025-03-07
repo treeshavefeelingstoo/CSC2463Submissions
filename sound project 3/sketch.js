@@ -1,6 +1,7 @@
 let synth1, filt, rev, polySynth, noise1, noise2, ampEnv1, ampEnv2, filt1, pressedKey;
 
 let pressedKeys = {};
+let activeKey = null;
 
 let keyNotes1 = {
   'a': 'C4',
